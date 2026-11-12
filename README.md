@@ -1,5 +1,5 @@
 # Serena - Centro de Estética
-Um website para um centro de estética onde os clientes podem consultar os serviços disponíveis, preços, horários e informações do espaço, podendo futuramente realizar marcações online[cite: 1].
+Um website para um centro de estética onde os clientes podem consultar os serviços disponíveis, preços, horários e informações do espaço, podendo futuramente realizar marcações online.
 
 
 ## 1. Identificação do Projeto
