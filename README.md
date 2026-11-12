@@ -13,7 +13,7 @@ Um website para um centro de estética onde os clientes podem consultar os servi
 
 
 ## 3. Estrutura do Website
-O menu de navegação do website é composto por: **Início | Sobre nós | Serviços | Marcações | Registo | Contactos**
+O menu de navegação do website é composto por: **Início | Sobre nós | Serviços | Marcações | Contactos | Registo**
 
 * **Início:** Apresentação do centro, destaques e serviços.
 * **Sobre nós:** História, equipa e espaço.
