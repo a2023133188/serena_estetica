@@ -19,8 +19,8 @@ O menu de navegação do website é composto por: **Início | Sobre nós | Servi
 * **Sobre nós:** História, equipa e espaço.
 * **Serviços:** Lista de tratamentos, fotos, descrição e preços dos serviços.
 * **Marcações:** Formulário para marcações.
-* **Registo:** Sistema de registo e login para clientes.
 * **Contactos:** Morada, horário, contactos e formulário.
+* **Registo:** Sistema de registo e login para clientes.
 
 
 ## 4. Conteúdos / Funcionalidades
