@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serena Estética | Contactos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- CABEÇALHO E MENU -->
+    <header class="header-principal">
+        <a href="index.html" class="logo-container">
+            <img src="img/logo.png" alt="Logótipo Serena Estética" class="logo-img">
+        </a>
+        <nav aria-label="Menu Principal">
+            <ul class="nav-menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre Nós</a></li>
+                <li class="item-mobile-bottom"><a href="servicos.html">Serviços</a></li>
+                <li class="item-mobile-bottom"><a href="marcacoes.html">Marcações</a></li>
+                <li class="item-mobile-bottom"><a href="contactos.html" class="ativo">Contactos</a></li>
+                <li><a href="registo.html" class="btn-registo">Registo</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="seccao-container">
+            <h1 class="titulo-seccao">Contactos e Localização</h1>
+            <p class="subtitulo-seccao">Estamos à sua disposição para esclarecer qualquer dúvida sobre os nossos tratamentos ou horários.</p>
+
+            <div class="contactos-grid">
+                <!-- Coluna 1: Morada, Contactos e Horário -->
+                <div class="bloco-info">
+                    <h3>A Nossa Morada</h3>
+                    <p>R. Manuel Lopes Porto<br>3045-241 Coimbra</p>
+
+                    <h3>Contactos Diretos</h3>
+                    <p><strong>Telefone:</strong> +351 239 802 000</p>
+                    <p><strong>Email:</strong> geral@serenaestetica.pt</p>
+
+                    <h3>Horário de Funcionamento</h3>
+                    <ul class="lista-horario">
+                        <li><span>Segunda a Sexta-feira</span> <strong>09:00 – 20:00</strong></li>
+                        <li><span>Sábado</span> <strong>09:00 – 18:00</strong></li>
+                        <li><span>Domingo e Feriados</span> <strong>Encerrado</strong></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 2: Formulário de Esclarecimento de Dúvidas -->
+                <div class="form-contacto" id="formulario">
+                    <h2 style="font-family: var(--fonte-menu); font-size: 1.8rem; margin-bottom: 20px; color: var(--cor-bordo);">
+                        Esclarecimento de Dúvidas
+                    </h2>
+                    <form action="#" method="post" id="form-contacto" novalidate>
+                        <div class="grupo-form">
+                            <label for="nome">Nome Completo *</label>
+                            <input type="text" id="nome" name="nome" placeholder="Insira o seu nome" required>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label for="email">Endereço de Email *</label>
+                            <input type="email" id="email" name="email" placeholder="exemplo@email.com" required>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label for="telefone">Contacto Telefónico</label>
+                            <input type="tel" id="telefone" name="telefone" placeholder="+351 900 000 000">
+                        </div>
+
+                        <div class="grupo-form">
+                            <label for="assunto">Serviço / Assunto da Dúvida *</label>
+                            <select id="assunto" name="assunto" required>
+                                <option value="">Selecione uma opção...</option>
+                                <option value="facial">Tratamentos Faciais</option>
+                                <option value="corporal">Massagens e Corpo</option>
+                                <option value="laser">Depilação a Laser</option>
+                                <option value="unhas">Manicure / Pedicure</option>
+                                <option value="marcacao">Pedido de Marcação</option>
+                                <option value="outro">Outras Questões / Horários</option>
+                            </select>
+                        </div>
+
+                        <div class="grupo-form">
+                            <label for="mensagem">A Sua Mensagem *</label>
+                            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Escreva aqui a sua dúvida..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-submeter">Enviar Pedido de Esclarecimento</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer-principal">
+        <p><strong>Serena Estética</strong> —  R. Manuel Lopes Porto, Coimbra | Tel: +351 239 802 000</p>
+        <p>&copy; 2026 Serena Estética. Todos os direitos reservados.</p>
+    </footer>
+
+    <ul class="nav-mobile-bottom">
+        <li><a href="servicos.html">Serviços</a></li>
+        <li><a href="marcacoes.html">Marcações</a></li>
+        <li><a href="contactos.html">Contactos</a></li>
+    </ul>
+
+    <script src="js/script.js" defer></script>
+</body>
+</html>
